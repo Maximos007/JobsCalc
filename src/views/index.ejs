@@ -32,6 +32,7 @@
           <img id="logo" src="/images/logo.svg" alt="Logo" />
           <span id="notification">
             <img src="/images/alert-octagon.svg" alt="Alerta" />
+            <% if(freeHours <= 0) %> 
             Você tem <%= freeHours %>  horas livres no seu dia
           </span>
           <a href="/profile" id="avatar-profile">
